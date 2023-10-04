@@ -23,7 +23,7 @@ console.log("================= 1st String Count ==================");
 
 countCharA("I AM Learning JavaScript,The Language of Internet");
 
-console.log("================= 2st String Count ==================");
+console.log("================= 2nd String Count ==================");
 
 countCharA("My Favorite movie is LAggAn");
 

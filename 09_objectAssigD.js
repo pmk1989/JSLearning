@@ -41,7 +41,7 @@ console.log("======================================================");
 console.log("8. Log complete object : ",professor);
 console.log("======================================================");
 
-console.log("Tranverse array of Certificate using 'for of loop' : ");
+console.log("9. Tranverse array of Certificate using 'for of loop' : ");
 for (const index of professor.Certificates) { 
 
         console.log(index);

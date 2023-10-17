@@ -29,7 +29,7 @@ console.log(setNum);
 
 arrayNumber = [...new Set(arrayNumber)];
 console.log(arrayNumber);
-
+console.log("************************");
 const map = new Map();
 map.set(11, 'Jenny');
 map.set(22, 'Bill');

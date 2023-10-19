@@ -13,7 +13,7 @@ console.log('=============Task 2=====================');
 
 function alternateText(str){
 
-    var chars = str.toLowerCase().split("");
+    var chars = str.split("");
 
     for (let index = 0; index < chars.length; index = index+2) {
         chars[index] = chars[index].toUpperCase();
@@ -22,6 +22,7 @@ function alternateText(str){
     return chars.join('');
 }
 console.log(`Given string value is : How are you mate`);
+
 console.log("Output of the given string is : ",alternateText(`How are you mate`));
 
 console.log("============== THE END ======================");

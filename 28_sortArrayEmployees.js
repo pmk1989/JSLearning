@@ -43,7 +43,7 @@ const newArrayEmpDept = arrayEmployees.sort( (emp1, emp2) => {
 } );
 
 arrayEmployees.forEach((employee) => {
-    console.log(`Id: ${employee.emp_id} || Name: ${employee.emp_name} || Department: ${employee.emp_dept}`);
+    console.log(`Id: ${employee.emp_id} || Department: ${employee.emp_dept} || Company: ${employee.emp_company}`);
   });
 
 
@@ -56,7 +56,7 @@ const newArrayEmpSalary = arrayEmployees.sort( (emp1, emp2) => {
 } );
 
 arrayEmployees.forEach((employee) => {
-    console.log(`Id: ${employee.emp_id} || Name: ${employee.emp_name} || Department: ${employee.emp_dept}`);
+    console.log(`Name: ${employee.emp_name} || Salary: ${employee.emp_salary} || Company: ${employee.emp_company}`);
   });
 
 
